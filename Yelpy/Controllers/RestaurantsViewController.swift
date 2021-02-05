@@ -16,29 +16,46 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
     
     
     // –––––– TODO: Initialize restaurantsArray
-    
+    var restaurantsArray: [[String:Any?]] = []
     
     
     // ––––– TODO: Add tableView datasource + delegate
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        getAPIData()
         tableView.dataSource = self
         tableView.delegate = self
     }
     
     
     // ––––– TODO: Get data from API helper and retrieve restaurants
+    func getAPIData() {
+        API.getRestaurants() { (restaurants) in
+            guard let restaurants = restaurants else {
+                return
+            }
+            print(restaurants)
+            self.restaurantsArray = restaurants
+            self.tableView.reloadData()
+        }
+    }
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 50
+        return restaurantsArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "RestaurantCell") as! RestaurantCell
         
-        cell.label.text = "row: \(indexPath.row)"
+        let restaurant = restaurantsArray[indexPath.row]
+        
+        cell.label.text = restaurant["name"] as? String ?? ""
+        
+        if let imageUrlString = restaurant["image_url"] as? String {
+            let imageUrl = URL(string: imageUrlString)
+            cell.restaurantImage.af.setImage(withURL: imageUrl!)
+        }
         
         return cell
     }
