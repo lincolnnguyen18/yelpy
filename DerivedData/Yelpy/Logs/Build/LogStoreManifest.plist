@@ -448,6 +448,40 @@
 			<key>uniqueIdentifier</key>
 			<string>D35B5F9C-1BA4-45D7-9619-8B3271EFAA05</string>
 		</dict>
+		<key>E6074722-8DA9-4F26-8040-08FB8368AA9A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E6074722-8DA9-4F26-8040-08FB8368AA9A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Yelpy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Yelpy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Yelpy</string>
+			<key>timeStartedRecording</key>
+			<real>634234028.42325199</real>
+			<key>timeStoppedRecording</key>
+			<real>634234036.07360101</real>
+			<key>title</key>
+			<string>Build Yelpy</string>
+			<key>uniqueIdentifier</key>
+			<string>E6074722-8DA9-4F26-8040-08FB8368AA9A</string>
+		</dict>
 		<key>EDF4FC9E-2F83-420F-B7C5-D6F439627163</key>
 		<dict>
 			<key>className</key>
