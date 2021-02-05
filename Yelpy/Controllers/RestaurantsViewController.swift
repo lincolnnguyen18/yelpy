@@ -48,9 +48,18 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
         let restaurant = restaurantsArray[indexPath.row]
         
         cell.label.text = restaurant["name"] as? String ?? ""
-        cell.rating.text = String(restaurant["rating"] as? Double ?? 0.0)
+        // cell.categories.text = String(restaurant["rating"] as? Double ?? 0.0)
+        // cell.categories.text =
         print(restaurant["name"] as? String ?? "")
+        let categories = restaurant["categories"] as! [[String:String]]
+        // for category in categories {
+        //     print(category["title"] ?? "")
+        //     cell.categories.text! += category["title"] ?? ""
+        // }
+        cell.categories.text! = categories[0]["title"] ?? ""
+        print(categories[0]["title"] ?? "")
         print(restaurant["rating"] as? Double ?? 0.0)
+        
         print("\n")
         
         if let imageUrlString = restaurant["image_url"] as? String {
