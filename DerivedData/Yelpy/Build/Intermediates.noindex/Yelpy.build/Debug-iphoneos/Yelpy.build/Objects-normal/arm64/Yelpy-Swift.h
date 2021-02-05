@@ -229,7 +229,7 @@ SWIFT_CLASS("_TtC5Yelpy14RestaurantCell")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified label;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified restaurantImage;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified categories;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified stars;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified stars;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified numRatings;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified phone;
 - (void)awakeFromNib;

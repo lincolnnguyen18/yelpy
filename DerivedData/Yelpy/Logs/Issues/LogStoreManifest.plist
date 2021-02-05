@@ -6,35 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>41443938-6259-4A54-9A90-FD7088103BF7</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>41443938-6259-4A54-9A90-FD7088103BF7.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Yelpy-fysbjvmsagvdfpboxtdniyguijrm</string>
-			<key>timeStartedRecording</key>
-			<real>634248945.19431603</real>
-			<key>timeStoppedRecording</key>
-			<real>634248945.74731398</real>
-			<key>title</key>
-			<string>Build target Yelpy</string>
-			<key>uniqueIdentifier</key>
-			<string>41443938-6259-4A54-9A90-FD7088103BF7</string>
-		</dict>
-		<key>4654748F-B779-414F-9182-AB07051FCE52</key>
+		<key>09ED09B3-ED84-41B1-8A9C-5E98C926030F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,35 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>4654748F-B779-414F-9182-AB07051FCE52.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Alamofire-hkbmfpnkorlscietypeszijcljuz</string>
-			<key>timeStartedRecording</key>
-			<real>634248812.96100903</real>
-			<key>timeStoppedRecording</key>
-			<real>634248812.97479403</real>
-			<key>title</key>
-			<string>Build target Alamofire</string>
-			<key>uniqueIdentifier</key>
-			<string>4654748F-B779-414F-9182-AB07051FCE52</string>
-		</dict>
-		<key>8CF46AF4-3E8A-40E8-A208-FA7846184CA8</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>8CF46AF4-3E8A-40E8-A208-FA7846184CA8.xcactivitylog</string>
+			<string>09ED09B3-ED84-41B1-8A9C-5E98C926030F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,15 +26,15 @@
 			<key>signature</key>
 			<string>AlamofireImage-hkbmfpnkorlscietypeszijcljuz</string>
 			<key>timeStartedRecording</key>
-			<real>634248812.97987998</real>
+			<real>634251845.28398299</real>
 			<key>timeStoppedRecording</key>
-			<real>634248812.98621595</real>
+			<real>634251861.68522203</real>
 			<key>title</key>
 			<string>Build target AlamofireImage</string>
 			<key>uniqueIdentifier</key>
-			<string>8CF46AF4-3E8A-40E8-A208-FA7846184CA8</string>
+			<string>09ED09B3-ED84-41B1-8A9C-5E98C926030F</string>
 		</dict>
-		<key>900363A6-EBBF-40E3-95E0-1E18A3BC47D4</key>
+		<key>292FBC1F-2B6E-45F1-BEA7-F4E512612B2E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -99,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>900363A6-EBBF-40E3-95E0-1E18A3BC47D4.xcactivitylog</string>
+			<string>292FBC1F-2B6E-45F1-BEA7-F4E512612B2E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -110,13 +54,69 @@
 			<key>signature</key>
 			<string>Pods-Yelpy-hkbmfpnkorlscietypeszijcljuz</string>
 			<key>timeStartedRecording</key>
-			<real>634248812.99153197</real>
+			<real>634251845.29915202</real>
 			<key>timeStoppedRecording</key>
-			<real>634248812.99828196</real>
+			<real>634251861.68586695</real>
 			<key>title</key>
 			<string>Build target Pods-Yelpy</string>
 			<key>uniqueIdentifier</key>
-			<string>900363A6-EBBF-40E3-95E0-1E18A3BC47D4</string>
+			<string>292FBC1F-2B6E-45F1-BEA7-F4E512612B2E</string>
+		</dict>
+		<key>8B83304A-BF37-4A8E-AE7C-9FE4714F991E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>8B83304A-BF37-4A8E-AE7C-9FE4714F991E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Yelpy-fysbjvmsagvdfpboxtdniyguijrm</string>
+			<key>timeStartedRecording</key>
+			<real>634251911.60326302</real>
+			<key>timeStoppedRecording</key>
+			<real>634251914.05445504</real>
+			<key>title</key>
+			<string>Build target Yelpy</string>
+			<key>uniqueIdentifier</key>
+			<string>8B83304A-BF37-4A8E-AE7C-9FE4714F991E</string>
+		</dict>
+		<key>981253EF-AD2F-408D-A489-FC83628F9C5D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>981253EF-AD2F-408D-A489-FC83628F9C5D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Alamofire-hkbmfpnkorlscietypeszijcljuz</string>
+			<key>timeStartedRecording</key>
+			<real>634251845.30247104</real>
+			<key>timeStoppedRecording</key>
+			<real>634251858.24537599</real>
+			<key>title</key>
+			<string>Build target Alamofire</string>
+			<key>uniqueIdentifier</key>
+			<string>981253EF-AD2F-408D-A489-FC83628F9C5D</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

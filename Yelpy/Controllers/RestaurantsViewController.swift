@@ -48,17 +48,55 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
         let restaurant = restaurantsArray[indexPath.row]
         
         cell.label.text = restaurant["name"] as? String ?? ""
-        // cell.categories.text = String(restaurant["rating"] as? Double ?? 0.0)
-        // cell.categories.text =
-        print(restaurant["name"] as? String ?? "")
         let categories = restaurant["categories"] as! [[String:String]]
+        let starCount = restaurant["rating"] as? Double ?? 0.0
         // for category in categories {
         //     print(category["title"] ?? "")
         //     cell.categories.text! += category["title"] ?? ""
         // }
         cell.categories.text! = categories[0]["title"] ?? ""
+        cell.numRatings.text! = String(restaurant["review_count"] as? Int ?? 0)
+        cell.phone.text! = restaurant["display_phone"] as? String ?? ""
+        switch starCount {
+        case 0.0:
+            print("0 stars")
+            cell.stars.image = UIImage(named: "regular_0")!
+        case 1.0:
+            print("1 star")
+            cell.stars.image = UIImage(named: "regular_1")!
+        case 1.5:
+            print("1.5 stars")
+            cell.stars.image = UIImage(named: "regular_1_half")!
+        case 2.0:
+            print("2 stars")
+            cell.stars.image = UIImage(named: "regular_2")!
+        case 2.5:
+            print("2.5 stars")
+            cell.stars.image = UIImage(named: "regular_2_half")!
+        case 3.0:
+            print("3 stars")
+            cell.stars.image = UIImage(named: "regular_3")!
+        case 3.5:
+            print("3.5 stars")
+            cell.stars.image = UIImage(named: "regular_3_half")!
+        case 4.0:
+            print("4 stars")
+            cell.stars.image = UIImage(named: "regular_4")!
+        case 4.5:
+            print("4.5 stars")
+            cell.stars.image = UIImage(named: "regular_4_half")!
+        case 5.0:
+            print("5 stars")
+            cell.stars.image = UIImage(named: "regular_5")!
+        default:
+            fatalError("Invalid stars.")
+        }
+        
+        print(restaurant["name"] as? String ?? "")
         print(categories[0]["title"] ?? "")
         print(restaurant["rating"] as? Double ?? 0.0)
+        print(restaurant["review_count"] as? Int ?? 0)
+        print(restaurant["display_phone"] as? String ?? "")
         
         // cell.
         

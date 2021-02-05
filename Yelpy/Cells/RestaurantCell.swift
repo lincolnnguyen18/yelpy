@@ -12,7 +12,7 @@ class RestaurantCell: UITableViewCell {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var restaurantImage: UIImageView!
     @IBOutlet weak var categories: UILabel!
-    @IBOutlet weak var stars: UIImageView!
+    @IBOutlet var stars: UIImageView!
     @IBOutlet weak var numRatings: UILabel!
     @IBOutlet weak var phone: UILabel!
     
