@@ -228,6 +228,7 @@ SWIFT_CLASS("_TtC5Yelpy14RestaurantCell")
 @interface RestaurantCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified label;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified restaurantImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified rating;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);

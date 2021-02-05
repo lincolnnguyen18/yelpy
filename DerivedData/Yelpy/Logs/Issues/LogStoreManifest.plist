@@ -6,6 +6,34 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>148DBE76-6239-4749-967A-BCCE52B21762</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>148DBE76-6239-4749-967A-BCCE52B21762.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Yelpy-fysbjvmsagvdfpboxtdniyguijrm</string>
+			<key>timeStartedRecording</key>
+			<real>634241252.24702001</real>
+			<key>timeStoppedRecording</key>
+			<real>634241253.95745599</real>
+			<key>title</key>
+			<string>Build target Yelpy</string>
+			<key>uniqueIdentifier</key>
+			<string>148DBE76-6239-4749-967A-BCCE52B21762</string>
+		</dict>
 		<key>16851865-0AAF-4042-99EF-847021146E8B</key>
 		<dict>
 			<key>className</key>
@@ -61,34 +89,6 @@
 			<string>Build target AlamofireImage</string>
 			<key>uniqueIdentifier</key>
 			<string>3597DB37-F783-40CA-9467-02B147748C28</string>
-		</dict>
-		<key>3AA11720-0C4C-405C-9D17-C9E632C8F084</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>3AA11720-0C4C-405C-9D17-C9E632C8F084.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Yelpy-fysbjvmsagvdfpboxtdniyguijrm</string>
-			<key>timeStartedRecording</key>
-			<real>634238137.54101801</real>
-			<key>timeStoppedRecording</key>
-			<real>634238174.91081405</real>
-			<key>title</key>
-			<string>Build target Yelpy</string>
-			<key>uniqueIdentifier</key>
-			<string>3AA11720-0C4C-405C-9D17-C9E632C8F084</string>
 		</dict>
 		<key>7236506B-7E95-43EC-9967-CE040BB1D658</key>
 		<dict>
