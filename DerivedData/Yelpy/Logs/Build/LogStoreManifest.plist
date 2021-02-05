@@ -40,6 +40,40 @@
 			<key>uniqueIdentifier</key>
 			<string>0F41BE00-7D91-45B0-BC1B-9D8F5B7247ED</string>
 		</dict>
+		<key>28093F6A-5A23-4075-A3F3-16462D94EBB7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>28093F6A-5A23-4075-A3F3-16462D94EBB7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Yelpy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Yelpy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Yelpy</string>
+			<key>timeStartedRecording</key>
+			<real>634246433.83905005</real>
+			<key>timeStoppedRecording</key>
+			<real>634246442.16691995</real>
+			<key>title</key>
+			<string>Build Yelpy</string>
+			<key>uniqueIdentifier</key>
+			<string>28093F6A-5A23-4075-A3F3-16462D94EBB7</string>
+		</dict>
 		<key>3BA9FB98-2264-48CB-98A8-E637D1E9392D</key>
 		<dict>
 			<key>className</key>
@@ -107,6 +141,40 @@
 			<string>Build Yelpy</string>
 			<key>uniqueIdentifier</key>
 			<string>428682F3-F0AC-4877-86FD-C70804271334</string>
+		</dict>
+		<key>4C5E2005-C9F9-458F-96CC-6104AA2621E9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4C5E2005-C9F9-458F-96CC-6104AA2621E9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Yelpy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Yelpy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Yelpy</string>
+			<key>timeStartedRecording</key>
+			<real>634246536.79126096</real>
+			<key>timeStoppedRecording</key>
+			<real>634246537.40952396</real>
+			<key>title</key>
+			<string>Build Yelpy</string>
+			<key>uniqueIdentifier</key>
+			<string>4C5E2005-C9F9-458F-96CC-6104AA2621E9</string>
 		</dict>
 		<key>5447A754-4F79-4FE0-8D80-E0076FCFDD61</key>
 		<dict>
@@ -210,6 +278,74 @@
 			<key>uniqueIdentifier</key>
 			<string>648C04AD-D14A-48EE-9063-DE71F8969D13</string>
 		</dict>
+		<key>653A3732-244A-467D-9E21-84EEAE68B2DE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>653A3732-244A-467D-9E21-84EEAE68B2DE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Yelpy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Yelpy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Yelpy</string>
+			<key>timeStartedRecording</key>
+			<real>634248913.89974594</real>
+			<key>timeStoppedRecording</key>
+			<real>634248916.63646901</real>
+			<key>title</key>
+			<string>Build Yelpy</string>
+			<key>uniqueIdentifier</key>
+			<string>653A3732-244A-467D-9E21-84EEAE68B2DE</string>
+		</dict>
+		<key>656746C5-3CB2-45E8-8797-6DDF6B16FBDA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>656746C5-3CB2-45E8-8797-6DDF6B16FBDA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Yelpy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Yelpy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Yelpy</string>
+			<key>timeStartedRecording</key>
+			<real>634248945.11376798</real>
+			<key>timeStoppedRecording</key>
+			<real>634248945.75555301</real>
+			<key>title</key>
+			<string>Build Yelpy</string>
+			<key>uniqueIdentifier</key>
+			<string>656746C5-3CB2-45E8-8797-6DDF6B16FBDA</string>
+		</dict>
 		<key>6B116146-7989-47CC-ADD2-3E2F050EBB5E</key>
 		<dict>
 			<key>className</key>
@@ -312,6 +448,40 @@
 			<key>uniqueIdentifier</key>
 			<string>6F9DD036-CFC6-402C-9CE4-51323551F9EB</string>
 		</dict>
+		<key>70F870B7-94B3-4B0F-9824-D92AC1437DF4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>70F870B7-94B3-4B0F-9824-D92AC1437DF4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Yelpy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Yelpy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Yelpy</string>
+			<key>timeStartedRecording</key>
+			<real>634248812.82908797</real>
+			<key>timeStoppedRecording</key>
+			<real>634248813.40465105</real>
+			<key>title</key>
+			<string>Build Yelpy</string>
+			<key>uniqueIdentifier</key>
+			<string>70F870B7-94B3-4B0F-9824-D92AC1437DF4</string>
+		</dict>
 		<key>717A2D88-68CB-46C6-AD9B-CEEBEBE94047</key>
 		<dict>
 			<key>className</key>
@@ -379,6 +549,40 @@
 			<string>Build Yelpy</string>
 			<key>uniqueIdentifier</key>
 			<string>7290A754-3555-4F69-84CA-9F558B44FCA6</string>
+		</dict>
+		<key>8B279D5D-DD4D-4BB5-A904-8A16BD2CCE90</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8B279D5D-DD4D-4BB5-A904-8A16BD2CCE90.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Yelpy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Yelpy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Yelpy</string>
+			<key>timeStartedRecording</key>
+			<real>634248829.97134101</real>
+			<key>timeStoppedRecording</key>
+			<real>634248841.38334501</real>
+			<key>title</key>
+			<string>Build Yelpy</string>
+			<key>uniqueIdentifier</key>
+			<string>8B279D5D-DD4D-4BB5-A904-8A16BD2CCE90</string>
 		</dict>
 		<key>B2669CDD-206F-4538-ABED-3379B5911AA6</key>
 		<dict>

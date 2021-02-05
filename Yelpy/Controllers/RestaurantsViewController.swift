@@ -60,6 +60,8 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
         print(categories[0]["title"] ?? "")
         print(restaurant["rating"] as? Double ?? 0.0)
         
+        // cell.
+        
         print("\n")
         
         if let imageUrlString = restaurant["image_url"] as? String {
