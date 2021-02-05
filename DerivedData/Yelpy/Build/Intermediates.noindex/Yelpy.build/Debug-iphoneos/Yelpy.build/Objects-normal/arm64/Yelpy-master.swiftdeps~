@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "5856858b48b120ce02f7558f15d59e2b"
+build_time: [1612540486, 772182000]
+inputs:
+  "/Users/lincolnnguyen/Downloads/yelpy_starter_1/Yelpy/Cells/RestaurantCell.swift": [1612538824, 585399867]
+  "/Users/lincolnnguyen/Downloads/yelpy_starter_1/Yelpy/Controllers/RestaurantsViewController.swift": [1612540190, 403046264]
+  "/Users/lincolnnguyen/Downloads/yelpy_starter_1/Yelpy/Network/API.swift": [1590705990, 0]
+  "/Users/lincolnnguyen/Downloads/yelpy_starter_1/Yelpy/AppDelegate.swift": [1590096660, 0]
+  "/Users/lincolnnguyen/Downloads/yelpy_starter_1/Yelpy/SceneDelegate.swift": [1590096660, 0]
