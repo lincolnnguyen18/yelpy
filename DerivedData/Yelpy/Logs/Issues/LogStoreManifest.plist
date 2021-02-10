@@ -62,7 +62,7 @@
 			<key>uniqueIdentifier</key>
 			<string>292FBC1F-2B6E-45F1-BEA7-F4E512612B2E</string>
 		</dict>
-		<key>8B83304A-BF37-4A8E-AE7C-9FE4714F991E</key>
+		<key>695CEDCE-1EB3-4845-AFA1-B042F10B03B2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>8B83304A-BF37-4A8E-AE7C-9FE4714F991E.xcactivitylog</string>
+			<string>695CEDCE-1EB3-4845-AFA1-B042F10B03B2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>Yelpy-fysbjvmsagvdfpboxtdniyguijrm</string>
 			<key>timeStartedRecording</key>
-			<real>634251911.60326302</real>
+			<real>634683314.87350905</real>
 			<key>timeStoppedRecording</key>
-			<real>634251914.05445504</real>
+			<real>634683315.59530902</real>
 			<key>title</key>
 			<string>Build target Yelpy</string>
 			<key>uniqueIdentifier</key>
-			<string>8B83304A-BF37-4A8E-AE7C-9FE4714F991E</string>
+			<string>695CEDCE-1EB3-4845-AFA1-B042F10B03B2</string>
 		</dict>
 		<key>981253EF-AD2F-408D-A489-FC83628F9C5D</key>
 		<dict>
