@@ -188,6 +188,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreGraphics;
 @import Foundation;
 @import UIKit;
 #endif
@@ -220,9 +221,33 @@ SWIFT_CLASS("_TtC5Yelpy11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIBarButtonItem;
+@class ImageScrollView;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC5Yelpy18FoodViewController")
+@interface FoodViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified closeButton;
+@property (nonatomic, weak) IBOutlet ImageScrollView * _Null_unspecified foodImage;
+- (void)viewDidLoad;
+- (IBAction)onClose:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIView;
+
+SWIFT_CLASS("_TtC5Yelpy13ImageZoomView")
+@interface ImageZoomView : UIScrollView <UIScrollViewDelegate>
+- (void)handleDoubleTap;
+- (UIView * _Nullable)viewForZoomingInScrollView:(UIScrollView * _Nonnull)scrollView SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UILabel;
 @class UIImageView;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC5Yelpy14RestaurantCell")
 @interface RestaurantCell : UITableViewCell
@@ -235,7 +260,7 @@ SWIFT_CLASS("_TtC5Yelpy14RestaurantCell")
 @end
 
 @class UITableView;
-@class NSBundle;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC5Yelpy25RestaurantsViewController")
 @interface RestaurantsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
@@ -243,6 +268,7 @@ SWIFT_CLASS("_TtC5Yelpy25RestaurantsViewController")
 - (void)viewDidLoad;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

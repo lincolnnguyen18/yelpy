@@ -14,7 +14,6 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
     // ––––– TODO: Next, place TableView outlet here
     @IBOutlet weak var tableView: UITableView!
     
-    
     // –––––– TODO: Initialize restaurantsArray
     var restaurantsArray: [[String:Any?]] = []
     
@@ -55,9 +54,33 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
         if let imageUrlString = restaurant["image_url"] as? String {
             let imageUrl = URL(string: imageUrlString)
             cell.restaurantImage.af.setImage(withURL: imageUrl!)
+            let recognizer = UITapGestureRecognizer(target: self, action: #selector(didTapImageView(_:)))
+            cell.restaurantImage.addGestureRecognizer(recognizer)
+            cell.restaurantImage.isUserInteractionEnabled = true
         }
         
         return cell
+    }
+    
+    var imageToSend: UIImage?
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+        // find selected movie id
+        // let movieId = movie["id"] as! Int
+        // pass it to movie trailer view controller
+        let foodNavViewController = segue.destination as! UINavigationController
+        let foodViewController = foodNavViewController.topViewController as! FoodViewController
+        foodViewController.image = imageToSend
+        // movieTrailerViewController.movieId = movieId
+    }
+    
+    @objc private func didTapImageView(_ sender: UITapGestureRecognizer) {
+        print("did tap image view", sender)
+        let cell = sender.view as! UIImageView
+        imageToSend = cell.image
+        performSegue(withIdentifier: "toFood", sender: self)
     }
 }
 

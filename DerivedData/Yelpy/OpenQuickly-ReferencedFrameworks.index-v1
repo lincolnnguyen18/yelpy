@@ -12,10 +12,10 @@
 	<string>CoreData</string>
 	<string>MobileCoreServices</string>
 	<string>AppKit</string>
-	<string>UIKit</string>
+	<string>Foundation</string>
 	<string>Cocoa</string>
 	<string>Combine</string>
-	<string>Foundation</string>
+	<string>UIKit</string>
 	<string>SystemConfiguration</string>
 </array>
 </plist>

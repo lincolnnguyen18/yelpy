@@ -8,5 +8,7 @@ target 'Yelpy' do
   # Pods for Yelpy
   pod 'Alamofire'
   pod 'AlamofireImage'
+  pod 'ImageScrollView'
+  pod 'Lightbox'
 
 end
